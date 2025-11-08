@@ -1,0 +1,23 @@
+# Ultra-Fast Lane Detection v2 - Requirements
+# Python 3.8+
+
+# Core dependencies
+torch>=2.0.0
+torchvision>=0.15.0
+numpy>=1.21.0
+matplotlib>=3.5.0
+tqdm>=4.64.0
+
+# Data processing
+opencv-python>=4.6.0
+Pillow>=9.0.0
+scikit-learn>=1.0.0
+
+# Utilities
+addict>=2.4.0
+pathspec>=0.9.0
+imagesize>=1.4.0
+ujson>=5.0.0
+
+# Note: CUDA support required for GPU training
+# Install PyTorch with CUDA from: https://pytorch.org/get-started/locally/
